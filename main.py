@@ -380,7 +380,7 @@ class Game(object):
                                          self.check_leftover(self.weapons,
                                                              self.weapon_iterator))
 
-        elif event.keysym == "2" and self.check_leftover(self.weapons, 
+        elif event.keysym == "2" and self.check_leftover(self.weapons,
                                                          self.weapon_iterator)[1]:
             self.weapon_iterator += 1
             self.weapon_indicator.update(self.weapons[self.weapon_iterator],
